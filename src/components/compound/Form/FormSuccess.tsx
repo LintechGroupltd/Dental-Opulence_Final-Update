@@ -13,7 +13,7 @@ const FormSuccess = ({ handleStepChange, handleOptionSelect, handleOptionDeselec
         {'Your inquiry has been '}
         </h1>
         <h1 className="bold text-lg md:text-4xl xl:text-7xl text-white">
-        {'received!'}
+        {'received'} {'Thank You!'}
         </h1>
        
       </div>

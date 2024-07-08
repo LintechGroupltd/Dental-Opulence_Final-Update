@@ -1,23 +1,3 @@
-// import React from "react";
-// import { AboutTeamCard } from '../molecule'
-// import { team } from '../../../constants'
-
-// const AboutTeam = () => {
-//   return (
-//     <div className=" w-full">
-//       <div className="bg-white w-full lg:px-[100px] sm:px-[40px] px-[20px] py-[80px] xl:gap-0">
-//         <h2 className="text-[34px] text-[#161616] font-Pangram-Regular" >Meet Our Team</h2>
-//         <div className="flex flex-wrap gap-10 mt-12">
-//             {team.map((team, index) => (
-//                 <AboutTeamCard key={index} {...team} />
-//             ))}
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default AboutTeam;
 
 
 import { useState } from 'react';
@@ -62,13 +42,13 @@ const people = [
     id: 6, 
     name: 'Dr Nazar Syed', 
     description: "Since graduating in 2013, Nazar has undertaken extensive training in oral surgery in several hospitals. This has involved participating in major deformity, trauma and cancer surgeries. During his hospital posts, Nazar also became involved in training and teaching of younger colleagues in oral surgery. This passion for teaching led Nazar to complete a post graduate certificate in medical education and he now runs hands-on oral surgery courses for dentists as well mentoring dentists in oral surgery and sedation. He has also undertaken training and post graduate qualifications in dental implants and conscious sedation for very anxious patients. Nazar's clinical practice is limited to oral surgery, implant dentistry and sedation dentistry. He is very experienced with dealing with nervous patients and receives a large number of referrals from other dentists to help treat anxious and nervous patients. Nazar has attended national and international conferences both as a contributor and as an attendee.Outside of work, Nazar enjoys an active lifestyle with a particular passion for both playing and watching football. His other great love is travelling and food, and his dream job is to be a travelling food journalist/chef like the Hairy Bikers!", 
-    designation:"Implantologist"
+    designation:"Implantologist "
   },
   { 
     id: 7, 
     name: 'Betul Sitki ', 
     description: "Betul Sitki graduated from dental school in 2020 in Istanbul, Turkey. She actively worked until September 2023 and is currently pursuing a master's in Advanced General Dentistry. Her hobbies include long-distance running, cycling, and swimming (she attends races in different cities), playing the piano, and traveling. She grew up in Canada. After graduating from dental school, she mainly focused on aesthetic dentistry and developed a passion for dental photography.", 
-    designation:"Nurse"
+    designation:"Nurse "
   },
   { 
     id: 8, 

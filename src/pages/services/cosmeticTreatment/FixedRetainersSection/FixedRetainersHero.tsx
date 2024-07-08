@@ -3,7 +3,8 @@ import Image from "next/image";
 import PrimaryLink from "@/components/atom/PrimaryLink";
 
 
-import fixed_retainers_service_hero_image from "../../../../../assets/images/fixed-retainers-service-hero-image.svg"
+// import fixed_retainers_service_hero_image from "../../../../../assets/images/fixed-retainers-service-hero-image.svg"
+import fixed_retainers_service_hero_image from "../../../../../assets/HeroSectionImages/fixed-retainers-service-hero-image.png"
 
 import right_thick from '../../../../../assets/images/right_thick.svg'
 const FixedRetainersHero = () => {
@@ -11,7 +12,7 @@ const FixedRetainersHero = () => {
   return (
     <div className="w-full">
       <div className="bg-[#FFFFFF] rounded-t-[24px] lg:pt-[50px] pt-[150px] pb-[120px] h-full xl:gap-0 gap-[40px] w-full items-center flex xl:flex-row flex-col justify-between xl:px-[100px] sm:px-[40px] px-[20px]">
-        <div className="flex flex-col xl:items-start items-center xl:w-[467px] sm:w-[70%] xl:py-[220px] lg:pt-[120px]">
+        <div className="flex flex-col xl:items-start items-center xl:w-[467px] sm:w-[70%] xl:py-[160px] lg:pt-[120px]">
           <div className="flex flex-row items-center gap-4">
             <h1 className="font-Pangram-Bold sm:text-[60px] w-full sm:leading-[64px] text-[44px] xl:text-left text-center text-[#161616]">
              Fixed Retainers
@@ -39,7 +40,7 @@ const FixedRetainersHero = () => {
 
 
 
-          <div className="flex gap-6 xs:mt-[56px] mt-[32px] sm:mx-0 mx-auto xs:flex-row flex-col">
+          <div className="flex gap-6 xs:mt-[40px] mt-[32px] sm:mx-0 mx-auto xs:flex-row flex-col">
             <PrimaryLink
               href="/contact"
               title="Contact Us"
@@ -52,7 +53,7 @@ const FixedRetainersHero = () => {
             />
           </div>
         </div>
-        <Image src={fixed_retainers_service_hero_image} alt="" className="xl:absolute right-0 top-0 xl:w-[684px]" />
+        <Image src={fixed_retainers_service_hero_image} alt="" className="xl:absolute right-0 top-0 xl:w-[695px]" />
       </div>
     </div>
   );

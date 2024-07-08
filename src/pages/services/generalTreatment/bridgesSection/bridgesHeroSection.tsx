@@ -6,7 +6,7 @@ import { GlobalContext } from "../../../../../context/GlobalContext";
 import PrimaryLink from "@/components/atom/PrimaryLink";
 
 
-import bridges_service_hero_image from "../../../../../assets/HeroSectionImages/bridge-service-hero-image.svg"
+import bridges_service_hero_image from "../../../../../assets/HeroSectionImages/bridge-service-hero-image.png"
 
 import right_thick from '../../../../../assets/images/right_thick.svg'
 

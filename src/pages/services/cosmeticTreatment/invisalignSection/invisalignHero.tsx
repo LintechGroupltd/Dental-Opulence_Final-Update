@@ -2,7 +2,8 @@ import React from "react";
 import Image from "next/image";
 import PrimaryLink from "@/components/atom/PrimaryLink";
 
-import invisalign_service_hero_image from "../../../../../assets/images/invisalign-service-hero-image.svg"
+// import invisalign_service_hero_image from "../../../../../assets/images/invisalign-service-hero-image.svg"
+import invisalign_service_hero_image from "../../../../../assets/HeroSectionImages/invisalign-service-hero-image.png"
 
 import right_thick from '../../../../../assets/images/right_thick.svg'
 
